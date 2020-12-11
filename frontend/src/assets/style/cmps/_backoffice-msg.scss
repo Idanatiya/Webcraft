@@ -1,0 +1,47 @@
+.backoffice-grid-msgs {
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    // gap: 25px;
+    .backoffice-card {
+        position: relative;
+        border: 1px solid rgb(194, 190, 190);
+        padding: 3rem;
+        word-break: break-all;
+        .created-at {
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 12px;
+        }
+        .wap-name {
+            font-size: 39px;
+        }
+        .info>* {
+            font-weight: bold;
+            padding: 2px;
+        }
+        .remove-card {
+            position: absolute;
+            left: 0;
+            top: 5px;
+            font-size: 1rem;
+            color: crimson;
+            display: none;
+        }
+        .check-website {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 0.5rem 1rem;
+            background: #86919b;
+            color: white;
+        }
+        .wap-thumbnail {
+            object-fit: cover;
+            width: 250px;
+        }
+        span {
+            display: inline-block;
+        }
+    }
+}

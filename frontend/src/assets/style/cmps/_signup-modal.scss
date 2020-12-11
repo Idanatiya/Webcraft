@@ -1,0 +1,133 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1003;
+}
+
+.signup-modal {
+    width: 659px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 1rem;
+    position: relative;
+    padding: 4rem;
+    text-align: center;
+    z-index: 2010;
+    .signin-signup {
+        font-family: carme;
+    }
+    .forms-container {
+        .title {
+            font-size: 2.2rem;
+            color: #444;
+            margin-bottom: 0.6rem;
+            margin: 0 auto;
+            font-family: carme;
+            text-align: start;
+        }
+        form {
+            padding: 0.5rem;
+        }
+        //form control
+        .form-control {
+            max-width: 380px;
+            width: 100%;
+            height: 55px;
+            background: #f0f0f0;
+            margin: 10px 0;
+            // border-radius: 40px;
+            display: grid;
+            grid-template-columns: 15% 85%;
+            padding: 0 .4rem;
+            span {
+                text-align: center;
+                line-height: 55px;
+                color: #acacac;
+            }
+            input {
+                background: none;
+                outline: none;
+                border: none;
+                line-height: 1;
+                font-weight: 600;
+                font-size: 1.1rem;
+                letter-spacing: 1px;
+                font-family: 'carme';
+                color: #333;
+                &::placeholder {
+                    color: #aaa;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .signup {
+        width: 150px;
+        height: 49px;
+        border-radius: 49px;
+        background: #124a76;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        transition: transform 0.5 ease;
+        z-index: 2010;
+        letter-spacing: 2px;
+        font-family: carme;
+        margin-bottom: 5px;
+    }
+}
+
+.toggle-modal-btn {
+    color: #124a76;
+    font-weight: 600;
+}
+
+.svg-img {
+    width: 288px;
+    z-index: 1;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.screen {
+    width: 100%;
+    position: fixed;
+    z-index: 2010;
+    background-color: rgba(0, 0, 0, .46);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #124a76;
+    font-size: 1.5rem;
+    background: transparent;
+    border-top-left-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+}

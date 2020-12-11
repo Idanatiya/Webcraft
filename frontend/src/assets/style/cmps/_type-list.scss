@@ -1,0 +1,32 @@
+.type-list {
+    h1 {
+        padding: 1.5rem;
+        font-size: 1.25rem;
+    }
+    .element-picker-container {
+        grid-template-columns: repeat(2, 115px);
+        grid-gap: 10px;
+        button {
+            background-color: hsla(0, 0%, 100%, 0.67);
+            font-family: carme;
+            font-size: 1rem;
+            padding: 1.5rem;
+            border: 0;
+            outline: 0;
+            text-transform: capitalize;
+            box-shadow: 0 0.5px 1.5px rgba(0, 0, 0, 0.26);
+            text-align: center;
+            transition: 0.53s ease;
+            &:nth-child(odd) {
+                &:hover {
+                    transform: translate3d(-3px, 3px, 3px);
+                }
+            }
+            &:nth-child(even) {
+                &:hover {
+                    transform: translate3d(3px, 3px, 3px);
+                }
+            }
+        }
+    }
+}

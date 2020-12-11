@@ -1,0 +1,58 @@
+.socket-modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1003;
+}
+
+.socket-modal-popup {
+    
+    width: 750px;
+    height: 450px;
+    background: #fff;
+    position: relative;
+    left: 40px;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .collab-icon {
+        font-size: 25px;
+        display: inline-block;
+    }
+    .modal-title {
+        font-size: 1.5rem;
+    }
+    .content input {
+        padding: 0.5rem;
+        font-size: 20px;
+        font-family: carme;
+        width: 100%;
+        padding: 1rem;
+        background: #e4e4e4;
+    }
+    .socket-close-btn {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 22px;
+        color: white;
+        z-index: 20;
+    }
+    svg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        border-radius: 14px;
+    }
+}

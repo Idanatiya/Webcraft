@@ -1,0 +1,55 @@
+.unsplash-search {
+    .form-container {
+        position: relative;
+    }
+    form {
+        margin-block-end: 1rem;
+        margin-block-start: 0.5rem;
+        input {
+            border: 1px solid #e5e5e5;
+            outline: 0;
+            padding: 0.5rem 1rem;
+        }
+        .btn-search {
+            position: absolute;
+            bottom: 6px;
+            right: 0.5rem;
+            font-size: 17px
+        }
+    }
+    .unsplash-imgs-container {
+        grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+        gap: 1rem;
+        place-items: center;
+        max-height: 850px;
+        width: 250px;
+        overflow-y: auto;
+        padding: 1rem;
+        &::-webkit-scrollbar {
+            width: 0.5rem;
+        }
+        &::-webkit-scrollbar-track {
+            box-shadow: inset 2px 4px 6px rgba(34, 32, 32, 0.3);
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: #124a76;
+        }
+        .unsplash-img-card,
+        .video-thumnbail {
+            background: gainsboro;
+            box-shadow: 0 0 2px black;
+            border-radius: 2px;
+            width: 5rem;
+            height: 5rem;
+            font-size: 1.2rem;
+            position: relative;
+            cursor: pointer;
+        }
+        .unsplash-img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 2px;
+        }
+    }
+}

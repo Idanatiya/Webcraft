@@ -1,0 +1,35 @@
+.avatar-modal {
+    background: #fff;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    right: 0.8rem;
+    top: 3.7rem;
+    z-index: 10000;
+    font-size: 18px;
+    .info,
+    .modal-links {
+        padding: 0.8rem;
+    }
+    .user-info {
+        margin-block-start: 1rem;
+        h3 {
+            margin-block-end: 5px;
+        }
+    }
+    img {
+        border: 2px solid #d9d9d9;
+    }
+    .seperator {
+        border-bottom: 1px solid #eee9e9;
+        width: 100%;
+    }
+    .modal-links>* {
+        margin: 5px 0;
+        cursor: pointer;
+    }
+}
+
+// background-color: rgb(25 106 142);

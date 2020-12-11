@@ -1,0 +1,53 @@
+.profile-title {
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+.user-waps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+    gap: 20px;
+    justify-content: center;
+    margin-block-end: 4rem;
+    .wap-card {
+        box-shadow: 0 0 18px rgba(190, 185, 185, 0.45);
+        border-radius: 5px;
+        font-family: carme, sans-serif;
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            img {
+                width: 25px;
+                object-fit: cover;
+            }
+        }
+        .wap-controls {
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 22px;
+            button {
+                font-size: 20px;
+            }
+        }
+    }
+    .add-wap-btn {
+        background: gainsboro;
+        /* position: relative; */
+        box-shadow: 0 0 18px rgba(190, 185, 185, 0.45);
+        border-radius: 2px;
+        border: 1px solid dashed;
+        width: 100%;
+        height: 250px;
+        opacity: 0.7;
+        transition: .3s ease;
+        i {
+            font-size: 4rem;
+        }
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
