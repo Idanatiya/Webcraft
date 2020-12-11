@@ -1,4 +1,4 @@
-﻿# Webcraf
+﻿# Webcraft
  
 ## Technologies
 Project is created with:
