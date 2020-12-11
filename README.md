@@ -13,13 +13,16 @@ Webcraft is a powerful tool to build your own responsive website without a line 
 ## Live Demo
 https://webcraft-ca.herokuapp.com/#/
 
-##Features
+## Features
 Drag and Drop: Use our powerful drag and drop feature for the best website building experience.
+
 Collaboration: Build a website with your friend, Click "Start Collaborate" and send the the link to all your Friends and start work toghter.
 
-Responsive: Build fast and responsive website and make it look beautiful even on mobile and tablet.
+Responsive: Build fast and responsive website and make it look beautiful with on mobile & tablet in few minutes!
 
 No Code: Find out how easy it is to build a powerful responsive website, with our system.
+
+Back Office: Manage your created websites with a wonderful backoffice where you can get msgs from client and delete & edit your websites
 
 
 
