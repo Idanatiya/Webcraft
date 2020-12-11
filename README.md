@@ -1,4 +1,4 @@
-﻿# webcraft-with-backend
+﻿# Webcraf
  
 ## Technologies
 Project is created with:
