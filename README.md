@@ -8,7 +8,7 @@ Vue, Vuex, JavaScript, SCSS, Node.js, MongoDB, Socket.IO
 Webcraft is a powerful tool to build your own responsive website without a line of code.
 
 ![alt text](https://imagizer.imageshack.com/img924/9523/vt1fmM.png)
-<img width="1435" alt="Screen Shot 2022-11-02 at 11 10 38" src="https://user-images.githubusercontent.com/71948616/199451746-09a9957c-d8e3-4e49-89b5-f637956845a6.png">
+
 
 	
 ## Live Demo
